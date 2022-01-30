@@ -1,0 +1,66 @@
+h1{
+	text-align: center;
+	background-color: lightcoral;
+	padding: 0.5em 0;
+	font-family: 'CRYSTALRegular';
+   font-weight: normal;
+   font-style: normal;
+   top:0px;
+ left:0px; 
+  margin:0px;
+ width:100%;
+}
+nav {
+background-color: lightcoral;
+padding: 0.5em 0;
+text-align: center;
+margin: 1%;
+}
+li {
+	display: inline;
+	padding: 0.5em;
+}
+Body{
+	background-image: url(peach.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+a:link {
+  text-decoration: none;
+}
+div{
+	background-color: white;
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+#module{
+	background-color: white;
+	width: 20%;
+	float: left;
+	margin: 1%;
+}
+#description{
+	background-color: white;
+	width: 30%;
+	float: left;
+	margin: 1%;
+	position: relative;
+}
+#artifact1{
+	width: 125px;
+	height: 100px;
+	float: left;
+	margin: 1%;
+	 background-image: url("resume.JPG");
+	 background-size: 100%;
+}
+#artifact2{
+	width: 125px;
+	height: 100px;
+	float: left;
+	margin: 1%;
+	 background-image: url("chess.JPG");
+	 background-size: 100%;
+}
