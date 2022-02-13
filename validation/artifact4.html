@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="description" content="Artifact 04 - Contact Us">
+        <meta charset="utf-8">
+		<title>Artifact 04</title>
+		<script src="validator.js"></script>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<form id="myform" action="thankyou.html" onsubmit="return validateForm();">
+            <p>
+                <label for="FirstName">First Name:</label>
+                <input type="text" id="FirstName" name="FirstName">
+            </p>
+                <div class="warning" id="fname"></div>
+             <p>
+                <label for="LastName">Last Name:</label>
+                <input type="text" id="LastName" name="LastName">
+            </p>
+             <p>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email">
+            </p>
+             <p>
+                <label for="Phone">Phone</label>
+                <input type="Phone" id="Phone" name="Phone">
+            </p>
+             <p>
+                <label for="Username">Username</label>
+                <input type="Username" id="Username" name="Username">
+            </p>
+             <p>
+                <label for="Password">Password</label>
+                <input type="Password" id="Password" name="Password">
+            </p>
+            <p>
+                <label for="Address">Address</label>
+                <input type="Address" id="Address" name="Address">
+            </p>
+            <p>
+                <label for="City">City</label>
+                <input type="City" id="City" name="City">
+            </p>
+            <p>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </p>
+            <div class="warning" id="submiterror"></div>
+        </form>
+        <div id="errorMessages"></div>
+	</body>
+</html>
