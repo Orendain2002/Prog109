@@ -5,6 +5,7 @@ var validEmail=false;
 var validPhone=false;
 var validUsername=false;
 var validPasswrod=false;
+var validZipcode=false;
 
 var firstname = document.getElementById("FirstName").value;
 var lastname = document.getElementById("LastName").value;
@@ -14,6 +15,7 @@ var dotpos = userEmail.lastIndexOf(".");
 var phone = document.getElementById("Phone").value;
 var username = document.getElementById("Username").value;
 var password = document.getElementById("Password").value;
+var zipcode = document.getElementById("Zipcode").value;
 
 if (firstname==="null" || firstname==="" || firstname.length > 20) {
     errorMessages += "<p>The firstname is required and cannot be greater than 20 characters</p>";
@@ -40,10 +42,16 @@ else {
    validPhone = true;
    validUsername = true;
    validPassword = true;
+   validZipcode = true;
 }
 
 document.getElementById("errorMessages").innerHTML = errorMessages;
 
 return (validFirstname);
 return (validLastname);
+return (validEmail);
+return (validPhone);
+return (validUsername);
+return (validPassword);
+return (validZipcode);
 }
