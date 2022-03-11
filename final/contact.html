@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="Stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/crystal" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/courier-prime-code" type="text/css"/>
+		<title>Portfolio</title>
+	</head>
+	<body>
+		<h1>Contact Me</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="work.html">Course Work</a></li>
+				<li><a href="artifact.html">Artifacts</a></li>
+				<li><a href="module.html">Module Assignments</a></li>
+				<li><a href="contact.html">Contact me</a></li>
+				<li><a href="own.html">Own Creative Page</a></li>
+			</ul>
+		</nav>
+		<div id ="date"></div>
+		<h2>Please fill in the required information</h2>
+		<form id="myform" action="thankyou.html" onsubmit="return validateForm();">
+            <p>
+                <label for="FirstName">First Name:</label>
+                <input type="text" id="FirstName" name="FirstName">
+            </p>
+             <p>
+                <label for="LastName">Last Name:</label>
+                <input type="text" id="LastName" name="LastName">
+            </p>
+             <p>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email">
+            </p>
+            <p>
+            	<label for="Comment">Comments:</label>
+            	<input type="text" id="Comment" name="Comment">
+            </p>
+            <p>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </p>
+            <div class="warning" id="submiterror"></div>
+        </form>
+        <div id="errorMessages"></div>
+        <script src="validator.js"></script>
+	</body>
+</html>
