@@ -4,9 +4,9 @@ var msg = '<h2>Multiplication Table</h2>';
     in between the section with the id blackboard, 
     so that the heading could appear in the blackboard*/
 var table = prompt("Choose a number between 0-10");
-var y = 5;
+var y = 1;
   for (i=0; i<11; i++) {
-    document.write(table, "X", + i, "=", table*i, "<br>");
+    document.write(table, "X", + i, "=", table*i*y, "<br>");
   }
 /*A commonly used Loop. Inside the parenthesis are statements used in the loop until it has reached or satisfied the statements.
 this loop uses the prompt/table variable chosen by the person and repeats the number/along with the other variables
